@@ -1,0 +1,29 @@
+= AI Hydroponics
+
+Imperial EE 3rd year consultancy group project with IBM.
+
+== Todo:
+* Monitoring - RPi/Arduino/FPGA:
+** Inputs:
+*** Submersible Ph Sensor
+*** Water Level Sensor
+*** Submersible Thermometer
+*** Total Dissolved Solids Sensor
+** Outputs:
+*** Nutrient Pump
+*** Water Circulation Pump
+*** Grow LEDs
+
+* Other Hardware:
+** Inputs:
+*** Microphone? - to control system
+** Outputs:
+*** Speaker - to give info on growing conditions
+
+* App - Website/Xamarin/QtWidget/Android Studio:
+** Plot graphs of historical conditions
+** Allow type of plant etc. to be selected
+
+* Server - RPi:
+** Connects to Watson TTS/STT to give info on growing conditions
+** Handles incoming requests from the app
